@@ -9,15 +9,17 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#C7EDFC"
         tools:layout_editor_absoluteX="261dp"
         tools:layout_editor_absoluteY="368dp">
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/floatingActionButton"
+            android:id="@+id/fbtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|right|center_vertical"
             android:clickable="true"
-            app:srcCompat="@android:drawable/ic_input_add" />
+            app:srcCompat="@android:drawable/ic_input_add"
+            android:onClick="open_dialog"/>
     </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
