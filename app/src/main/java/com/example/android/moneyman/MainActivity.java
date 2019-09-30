@@ -77,6 +77,7 @@ public class MainActivity extends AppCompatActivity
         categories.add("Breakfast");
         categories.add("Lunch");
         categories.add("Dinner");
+        categories.add("Other");
 
         //Style and populate the spinner
         ArrayAdapter<String> dataAdapter;
