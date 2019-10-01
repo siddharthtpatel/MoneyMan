@@ -74,10 +74,10 @@ public class MainActivity extends AppCompatActivity
 
         List<String> categories = new ArrayList<>();
         categories.add(0,"Choose Category");
-        categories.add("Breakfast");
-        categories.add("Lunch");
-        categories.add("Dinner");
-        categories.add("Other");
+        categories.add(" Breakfast");
+        categories.add(" Lunch");
+        categories.add(" Dinner");
+        categories.add(" Other");
 
         //Style and populate the spinner
         ArrayAdapter<String> dataAdapter;
